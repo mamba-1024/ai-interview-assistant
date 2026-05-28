@@ -5,13 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interview Assistant</title>
     <style>
+      html,
       body {
         margin: 0;
-        padding: 16px;
-        width: 300px;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        padding: 0;
+        width: 350px;
+        max-height: 500px;
+        overflow-y: auto;
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
         background: #0f172a;
         color: #e2e8f0;
+      }
+      #root {
+        padding: 14px;
+      }
+      /* Slim scrollbar to match dark theme */
+      ::-webkit-scrollbar {
+        width: 6px;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #334155;
+        border-radius: 3px;
       }
     </style>
   </head>

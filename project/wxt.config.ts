@@ -27,7 +27,7 @@ export default defineConfig({
     },
     commands: {
       "toggle-panel": {
-        suggested_key: { default: "Ctrl+Shift+I" },
+        suggested_key: { default: "Ctrl+Shift+Y" },
         description: "__MSG_cmdTogglePanel__",
       },
     },
