@@ -1,0 +1,71 @@
+{
+  "extName": {
+    "message": "AI Interview Assistant",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "Real-time AI-powered interview coaching in your browser",
+    "description": "Extension description"
+  },
+  "cmdTogglePanel": {
+    "message": "Toggle interview assistant panel",
+    "description": "Keyboard command description"
+  },
+
+  "appTitle": { "message": "Interview Assistant" },
+  "statusRecording": { "message": "● Recording" },
+  "statusIdle": { "message": "Idle" },
+
+  "tabInterview": { "message": "Interview" },
+  "tabResume": { "message": "Resume" },
+  "tabSettings": { "message": "Settings" },
+
+  "enterDetails": { "message": "Enter interview details to get started" },
+  "placeholderCompany": { "message": "Company name" },
+  "placeholderRole": { "message": "Role / Position" },
+
+  "labelInterviewer": { "message": "Interviewer" },
+  "labelYou": { "message": "You" },
+  "waitingInterview": { "message": "Waiting for interview to start..." },
+
+  "btnStartInterview": { "message": "Start Interview" },
+  "btnStarting": { "message": "Starting..." },
+  "btnStopInterview": { "message": "Stop Interview" },
+
+  "typeBehavioral": { "message": "Behavioral" },
+  "typeTechnical": { "message": "Technical" },
+  "typeSituational": { "message": "Situational" },
+  "typeGeneral": { "message": "General" },
+  "labelQuestion": { "message": "Question" },
+  "labelRef": { "message": "Ref" },
+
+  "resumeTitle": { "message": "Resume" },
+  "resumeDescription": {
+    "message": "Upload your resume so the AI can personalize answer suggestions based on your experience."
+  },
+  "resumeParsing": { "message": "Parsing..." },
+  "resumeUpload": { "message": "Click to upload PDF" },
+  "resumeReady": { "message": "Ready" },
+  "jobDescriptionTitle": { "message": "Job Description" },
+  "placeholderJobDescription": { "message": "Paste the job description here..." },
+
+  "settingsTitle": { "message": "Settings" },
+  "settingAutoDetect": { "message": "Auto-detect questions" },
+  "settingInterimTranscript": { "message": "Show interim transcripts" },
+
+  "popupTitle": { "message": "AI Interview Assistant" },
+  "popupDescription": { "message": "Real-time AI coaching for your interviews." },
+  "popupOpenPanel": { "message": "Open Side Panel" },
+  "popupViewDashboard": { "message": "View Dashboard" },
+
+  "sessionStarted": {
+    "message": "Interview started — $1 / $2",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "sessionEnded": { "message": "Interview ended" },
+
+  "contentActive": { "message": "Interview Assistant Active" }
+}

@@ -1,0 +1,71 @@
+{
+  "extName": {
+    "message": "AI 面试助手",
+    "description": "Extension name"
+  },
+  "extDescription": {
+    "message": "浏览器内实时 AI 面试辅导工具",
+    "description": "Extension description"
+  },
+  "cmdTogglePanel": {
+    "message": "切换面试助手面板",
+    "description": "Keyboard command description"
+  },
+
+  "appTitle": { "message": "面试助手" },
+  "statusRecording": { "message": "● 录制中" },
+  "statusIdle": { "message": "待机" },
+
+  "tabInterview": { "message": "面试" },
+  "tabResume": { "message": "简历" },
+  "tabSettings": { "message": "设置" },
+
+  "enterDetails": { "message": "请输入面试信息以开始" },
+  "placeholderCompany": { "message": "公司名称" },
+  "placeholderRole": { "message": "职位 / 岗位" },
+
+  "labelInterviewer": { "message": "面试官" },
+  "labelYou": { "message": "你" },
+  "waitingInterview": { "message": "等待面试开始..." },
+
+  "btnStartInterview": { "message": "开始面试" },
+  "btnStarting": { "message": "启动中..." },
+  "btnStopInterview": { "message": "结束面试" },
+
+  "typeBehavioral": { "message": "行为面试" },
+  "typeTechnical": { "message": "技术面试" },
+  "typeSituational": { "message": "情景面试" },
+  "typeGeneral": { "message": "综合面试" },
+  "labelQuestion": { "message": "问题" },
+  "labelRef": { "message": "参考" },
+
+  "resumeTitle": { "message": "简历" },
+  "resumeDescription": {
+    "message": "上传你的简历，AI 将根据你的经历个性化面试回答建议。"
+  },
+  "resumeParsing": { "message": "解析中..." },
+  "resumeUpload": { "message": "点击上传 PDF" },
+  "resumeReady": { "message": "已就绪" },
+  "jobDescriptionTitle": { "message": "职位描述" },
+  "placeholderJobDescription": { "message": "在此粘贴职位描述..." },
+
+  "settingsTitle": { "message": "设置" },
+  "settingAutoDetect": { "message": "自动检测面试问题" },
+  "settingInterimTranscript": { "message": "显示实时转录文本" },
+
+  "popupTitle": { "message": "AI 面试助手" },
+  "popupDescription": { "message": "为你的面试提供实时 AI 辅导。" },
+  "popupOpenPanel": { "message": "打开侧边栏" },
+  "popupViewDashboard": { "message": "查看面板" },
+
+  "sessionStarted": {
+    "message": "面试已开始 — $1 / $2",
+    "placeholders": {
+      "1": { "content": "$1" },
+      "2": { "content": "$2" }
+    }
+  },
+  "sessionEnded": { "message": "面试已结束" },
+
+  "contentActive": { "message": "面试助手运行中" }
+}

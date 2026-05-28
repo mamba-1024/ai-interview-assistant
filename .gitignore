@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Project build artifacts
+project/node_modules/
+project/.output/
+project/.wxt/
+project/dist/
+*.zip
+
+# Environment
+.env
+.env.*
