@@ -12,7 +12,7 @@ import { getValidToken } from "./auth";
 
 // ─── 常量 ────────────────────────────────────────────────────────────────────
 
-const DEFAULT_BASE_URL = "https://api.yourapp.com";
+const DEFAULT_BASE_URL = "http://localhost:3000";
 const DEFAULT_TIMEOUT = 30_000;
 const DEFAULT_MAX_RETRIES = 3;
 const RETRY_BASE_INTERVAL = 1000;

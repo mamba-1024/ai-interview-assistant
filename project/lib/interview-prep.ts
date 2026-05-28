@@ -35,7 +35,7 @@ const STORAGE_KEY = "interview_prep_cache_v1";
 const CACHE_TTL_MS = 7 * 24 * 60 * 60 * 1000;
 
 /** 默认 API base URL（与 api.ts 保持一致的兜底值） */
-const DEFAULT_BASE_URL = "https://api.yourapp.com";
+const DEFAULT_BASE_URL = "http://localhost:3000";
 
 /** 单次请求超时（面试题生成可能较慢） */
 const REQUEST_TIMEOUT = 45_000;

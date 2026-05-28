@@ -145,7 +145,7 @@ export const PopupApp: React.FC = () => {
   };
 
   const handleLogin = () => {
-    chrome.tabs.create({ url: "https://api.yourapp.com/login" });
+    chrome.tabs.create({ url: "http://localhost:3000/login" });
   };
 
   // ─── Sub-renderers ──────────────────────────────────────────

@@ -3,8 +3,8 @@
  */
 
 const AUTH_CONFIG = {
-  authUrl: "https://api.yourapp.com/oauth/authorize",
-  tokenUrl: "https://api.yourapp.com/oauth/token",
+  authUrl: "http://localhost:3000/oauth/authorize",
+  tokenUrl: "http://localhost:3000/oauth/token",
   redirectUrl: chrome.identity?.getRedirectURL?.("oauth-callback") ?? "",
   clientId: "YOUR_OAUTH_CLIENT_ID",
   scopes: ["openid", "profile", "email"],
